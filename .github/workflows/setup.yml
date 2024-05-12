@@ -7,7 +7,7 @@ on:
       - "develop"
 jobs:
   Main:
-    runs-on: ubutu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository Code
         uses: actions/checkout@v3
